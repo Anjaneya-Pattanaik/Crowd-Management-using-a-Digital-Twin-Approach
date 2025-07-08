@@ -63,6 +63,36 @@ cd crowd-digital-twin #root folder path
 pip install -r requirements.txt
 ```
 
+3. **Download Pretrained Model and Sample Inputs**
+
+To run the project directly without training:
+- Download the pretrained model (PartAmodel_best.pth)
+- Download sample video and evaluation test data
+
+Place the downloaded .pth file in your project root directory as PartAmodel_best.pth.
+
+---
+
+## 📁 File Path Instructions
+
+### 📝 Important:
+Throughout the code files (e.g., main.py, eval.py, train.py, visualize_results.py), there are placeholders like:
+
+"path to this file"
+"path/to/train.json"
+"video.mp4"
+"test_data/images"
+
+### 🔧 Before running the project, replace these with the actual paths to your:
+
+✅ Input video file (e.g., video.mp4)
+
+✅ Ground truth images and .mat files
+
+✅ Pretrained model file (PartAmodel_best.pth)
+
+✅ Training and validation annotation .json files
+
 ---
 
 ## 🚀 Running the Project
@@ -92,8 +122,14 @@ python visualize_results.py
 - Saves as `visual_result_1.png`, `visual_result_2.png`, ...
 
 ### 🧠 Training CSRNet
+
+1. Make sure you have:
+- part_A_train.json and part_A_val.json
+- Images and their corresponding .h5 density maps
+  
+2. Run the following command to begin training:
 ```bash
-python train.py part_A_train.json part_A_val.json --pre pretrained.pth 0 run1
+python train.py part_A_train.json part_A_val.json --pre None 0 run1
 ```
 
 - Trains CSRNet using ShanghaiTech or custom dataset
