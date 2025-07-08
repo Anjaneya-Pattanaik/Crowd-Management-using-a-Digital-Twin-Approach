@@ -155,3 +155,7 @@ python train.py part_A_train.json part_A_val.json --pre None 0 run1
 | MAE (Test Set)   | 85.54          |
 | RMSE (Test Set)  | 142.60         |
 | Pseudo Accuracy  | ~63% (within ±10% tolerance) |
+
+---
+
+_**Note: This project was developed and submitted as part of the B.Tech Minor Project under the School of Computer Sciences, Odisha University of Technology and Research (2025).**_
