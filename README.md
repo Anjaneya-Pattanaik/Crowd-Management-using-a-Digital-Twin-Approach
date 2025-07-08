@@ -54,8 +54,8 @@ Once downloaded:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/crowd-digital-twin.git
-cd crowd-digital-twin
+git clone https://github.com/Anjaneya-Pattanaik/Crowd-Management-using-a-Digital-Twin-Approach.git
+cd crowd-digital-twin #root folder path
 ```
 
 2. **Install Dependencies**
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-- Loads video from `video.mp4`
+- Loads the input video
 - Displays crowd heatmap with count
 - Triggers alerts (beep + optional SMS/WhatsApp) if crowd count spike detected
 
