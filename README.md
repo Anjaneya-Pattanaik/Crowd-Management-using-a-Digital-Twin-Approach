@@ -38,7 +38,7 @@ Find the sample input videos and result visualizations along with the model .pth
 
 ---
 
-##  Dataset
+## 📁 Dataset
 
 The model is evaluated on the **ShanghaiTech Part A dataset**, a standard benchmark for crowd counting.
 
