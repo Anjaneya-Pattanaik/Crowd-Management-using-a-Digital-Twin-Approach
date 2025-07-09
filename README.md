@@ -30,15 +30,15 @@ This project presents a digital twin–based system for real-time crowd monitori
 
 ---
 
-## 📷 Pretrained Model .pth file and sample Input/Output Files
+## 📁 Pretrained Model .pth file and sample Input/Output Files
 
-📁 Find the sample input videos and result visualizations along with the model .pth file here:
+Find the sample input videos and result visualizations along with the model .pth file here:
 
 ➡️ **[Sample Input/Output Files on Google Drive](https://drive.google.com/drive/folders/1M-Z79b7fjOM091HWcF5rcXDAj1osWAXv?usp=sharing)**
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 The model is evaluated on the **ShanghaiTech Part A dataset**, a standard benchmark for crowd counting.
 
