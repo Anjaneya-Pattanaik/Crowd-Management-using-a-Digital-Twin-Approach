@@ -1,7 +1,7 @@
 
 # 📊 Crowd Management using a Digital Twin Approach
 
-This project presents a digital twin–based system for real-time crowd monitoring and emergency prediction using deep learning. It leverages a **CSRNet-based density estimation model** to process video feeds and in highly dense religious gatherings like the **Mahakumbh Mela**.
+This project presents a digital twin–based system for real-time crowd monitoring and emergency prediction using deep learning. It leverages a **CSRNet-based density estimation model** to process video feeds in highly dense religious gatherings like the **Mahakumbh Mela**.
 
 ---
 
