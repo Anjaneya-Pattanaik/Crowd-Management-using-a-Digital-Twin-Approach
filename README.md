@@ -158,4 +158,8 @@ python train.py part_A_train.json part_A_val.json --pre None 0 run1
 
 ---
 
+## Project Presentation
+**[View Project Summary PPT (Google Drive)](https://drive.google.com/file/d/1WHEHZh6Mo0xDXG14_EEYgsEnGr_9c2-H/view?usp=sharing)**
+
+---
 _**Note: This project was developed and submitted as part of the B.Tech Minor Project under the School of Computer Sciences, Odisha University of Technology and Research (2025).**_
